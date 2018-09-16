@@ -39,7 +39,7 @@ population = []
 for person in people:
 	population.append(person)
 
-book = Club("Book Club", "A book club")
+book = Club("The KPOP Dome", "Your average secret kpopies")
 book.recruit_member(steve)
 book.recruit_member(ron)
 book.recruit_member(maha)
@@ -47,7 +47,7 @@ book.recruit_member(confession_bear)
 book.recruit_member(audrey)
 book.assign_president(ron)
 
-sports = Club("Sports Club", "A sports club")
+sports = Club("Anime Weebs", "Anime for LIFE!")
 sports.recruit_member(michelle)
 sports.recruit_member(john)
 sports.recruit_member(jack)
@@ -63,7 +63,7 @@ coding.recruit_member(confession_bear)
 coding.recruit_member(asis)
 coding.assign_president(dudette)
 
-glub = Club("Glub Club", "A glubbing club")
+glub = Club("Go Home Club", "We like to go home. ¯\\_(ツ)_/¯")
 glub.recruit_member(steve)
 glub.recruit_member(john)
 glub.recruit_member(maha)
