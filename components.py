@@ -18,7 +18,8 @@ class Club():
     def assign_president(self, person):
         # your code goes here!
         self.president = person
-        self.members.append(person)
+        if not (person in self.members) :
+            self.members.append(person)
 
 
 

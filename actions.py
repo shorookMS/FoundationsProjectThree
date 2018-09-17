@@ -57,8 +57,11 @@ def create_club():
         try:
 
             if int(num) in range(1,16):
-                newClub.recruit_member(population[int(num)-1])
-                print("Member added!")
+                if population[int(num)-1] in newClub.members :
+                    print("Member is already added!")
+                else :
+                    newClub.recruit_member(population[int(num)-1])
+                    print("Member added!")
             elif int(num) == -1 :
                 break
             else :
